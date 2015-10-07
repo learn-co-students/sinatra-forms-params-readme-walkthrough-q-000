@@ -206,7 +206,7 @@ Here's the full post route and action in `app.rb`:
 
 ```
 post '/foodreceiver' do
-  "My name is #{params[:name}}, and I love #{params[:favorite_foods]}"
+  "My name is #{params[:name]}, and I love #{params[:favorite_foods]}"
 end
 ```
 
